@@ -1,0 +1,32 @@
+{
+  "name": "superpay",
+  "version": "1.0.0",
+  "description": "gateway para pagamentos http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucfo/nodejs-api-rest.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api",
+    "rest"
+  ],
+  "author": "Bruno Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucfo/nodejs-api-rest/issues"
+  },
+  "homepage": "https://github.com/brucfo/nodejs-api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "express-validator": "5.3.1",
+    "mysql": "^2.18.1"
+  }
+}
